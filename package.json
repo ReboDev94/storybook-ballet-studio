@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "start": "storybook dev -p 6006",
+    "build": "storybook build",
+    "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "preview": "vite preview",
     "chromatic": "npx chromatic --project-token=chpt_e8ee12b74865f7a"
