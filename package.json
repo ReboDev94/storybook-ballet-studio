@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "start": "storybook dev -p 6006",
-    "build": "storybook build"
+    "build-storybook": "storybook build",
+    "preview": "vite preview",
+    "chromatic": "npx chromatic --project-token=chpt_e8ee12b74865f7a"
   },
   "dependencies": {
     "classnames": "^2.3.2",
@@ -26,6 +28,7 @@
     "@typescript-eslint/parser": "^5.61.0",
     "@vitejs/plugin-react": "^4.0.1",
     "autoprefixer": "^10.4.14",
+    "chromatic": "^6.19.9",
     "eslint": "^8.44.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.1",
