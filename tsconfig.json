@@ -12,6 +12,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
+    "declaration": true,
+    "typeRoots": ["./dist/index.d.ts"],
     "jsx": "react-jsx",
 
     /* Linting */
@@ -20,6 +22,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "exclude": ["./src/stories","./vite.config.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
